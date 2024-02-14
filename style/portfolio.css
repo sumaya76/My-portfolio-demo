@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+   
+}
+.button-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+/* Header and navigation Styles */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+.text-Primary{
+    color: #FD6E0A;
+}
+/* bannerStyle */
+.banner{
+    align-items: center;
+    display: flex;
+    margin: 0 200px;
+    
+}
+    
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--Dark-02, #474747);
+
+}
+.banner-title{
+font-size: 85px;
+margin-bottom: 20px;
+font-style: normal;
+font-weight: 700;
+color: var(--Dark-01, #181818)
+
+}
+.banner-description{
+color: var(--Dark-03, #757575);
+margin-bottom: 30px;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+}
+/*main Section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*About Section style */
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+
+}
+.section-title{
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    text-align: center;
+   font-family: "Open Sans";
+    font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    margin-bottom: 30px;
+
+}
+.section-description{
+color: var(--Dark-03, #757575);
+text-align: center;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 30px;
+
+}
+.about-info-all{
+    display: flex ;
+    justify-content: space-around;
+
+
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+
+/* what i do style */
+.what-i-do{
+    margin-top: 130px;  
+   
+   
+}
+.skills-container{
+    margin-top: 130px;
+    display: flex;
+    gap: 24px;
+   
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+font-size: 20px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.section-title{
+    margin-top: 130px;  
+    margin-bottom: 130;
+}
+/*resume style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.title{
+    
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.description{
+    
+    color: #757575;
+
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+/*contact style */
+.Contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.Contact Section{
+    text-align: left;
+   
+}
+.Contact input, textarea{
+    margin: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
